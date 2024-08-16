@@ -1,0 +1,20 @@
+/* style.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Desplazamiento suave para la página */
+html {
+  scroll-behavior: smooth;
+}
+
+.neon-text {
+    color: white;
+    text-shadow: 
+        0 0 5px rgba(255, 0, 0, 0.8), /* Rojo brillante */
+        0 0 10px rgba(255, 0, 0, 0.6); /* Más difuso */
+        
+}
+
+
+
